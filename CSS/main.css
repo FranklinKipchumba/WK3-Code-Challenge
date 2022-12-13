@@ -140,4 +140,25 @@ img{
   background: #8C8;
   counter-increment: carousel-inner;
 }
+ 
+.carousel-inner > .item {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
+ }
 
+ .carousel-item{
+    position: relative;
+    height: 150px;
+    width: 150px;
+ }
+
+ .carousel-item .container-fluid{
+    height: 300px;
+    width: 726px;
+    object-fit: cover;
+    align-items: center;
+    margin-bottom: 100px;
+ }
