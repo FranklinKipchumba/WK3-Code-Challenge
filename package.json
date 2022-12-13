@@ -1,0 +1,26 @@
+{
+  "name": "wk3-code-challenge",
+  "version": "1.0.0",
+  "description": "Flatdango, that allows a user to purchase movie tickets from the",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test, node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranklinKipchumba/WK3-Code-Challenge.git"
+  },
+  "keywords": [
+    "fetch",
+    "get",
+    "post",
+    "patch",
+    "delete"
+  ],
+  "author": "Franklin Kipchumba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranklinKipchumba/WK3-Code-Challenge/issues"
+  },
+  "homepage": "https://github.com/FranklinKipchumba/WK3-Code-Challenge#readme"
+}
