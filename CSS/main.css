@@ -92,6 +92,7 @@ img{
 
 .sidebar{
     height: fit-content;
+    
 }
 
 .sidebar-groups{
@@ -100,6 +101,7 @@ img{
 
     display: grid;
     align-items: center;
+    margin-bottom: 4000px;
     
 }
 .sg-title{
@@ -121,44 +123,97 @@ img{
 }
 
 .btn-outline-info:hover{
-    color: #00FFE4;
+    background-color: #00FFE4;
 }
 
-.carousel-inner::before{
-    display: block;
-    text-align: center;
-    content: counter(gallery-cell);
-    line-height: 200px;
-    font-size: 20px;
-    color: white;
+.buttons .btn:hover{
+    color: #252525;
 }
 
-.carousel-inner{
+ .current-movies .btn-outline-primary img{
+    height: 200px;
+    width: 200px;
+ }
+
+ .upcoming-img-box{
+    position: relative;
+    height: 300px;
     width: 100%;
-  height: 400px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: carousel-inner;
-}
- 
-.carousel-inner > .item {
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
-    height: 100vh;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+ }
+
+ .upcoming-title{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: #00FFE4;
+    background-color: #252525;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid #00FFE4;
+    font-weight: 500;
+ }
+
+ .buttons{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+ }
+
+ .buttons .btn{
+    background-color: #252525;
+    color: #00FFE4;
+    border: 1px solid #00FFE4;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    height: 20px;
+    width: 70px;
+ }
+
+ .btn-alt{
+    background-color: #252525;
+    color: #00FFE4;
+    border: 1px solid #00FFE4;
+    margin-left: 6rem;
+    border-radius: 2rem;
+
+ }
+
+ .current-movies{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 1.5rem;
+ }
+
+ .current-movie{
+    padding: 0;
+    border-radius: .5rem;
+ }
+
+ .cm-img-box{
+    position: relative;
+    height: 150px;
+    width: auto;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
     overflow: hidden;
  }
 
- .carousel-item{
-    position: relative;
-    height: 150px;
-    width: 150px;
- }
+.movie-title{
+    color: #ffffff;
+    margin-bottom: .2rem;
+}
 
- .carousel-item .container-fluid{
-    height: 300px;
-    width: 726px;
-    object-fit: cover;
+.booking{
+    display: flex;
     align-items: center;
-    margin-bottom: 100px;
- }
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.price{
+    color: #00FFE4;
+}
+
